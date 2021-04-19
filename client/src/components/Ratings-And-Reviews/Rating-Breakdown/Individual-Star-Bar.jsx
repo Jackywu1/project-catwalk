@@ -2,14 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const IndividualStarBar = ({ star }) => (
-  <p>
-    star count:
-    {star}
-    <br />
-    bar: star bar placeholder
-    <br />
-    counts: star counts placeholder
-  </p>
+  <tbody>
+    <tr>
+      <td>
+        {star}
+        stars
+      </td>
+      <td>
+        bar: star bar placeholder
+      </td>
+      <td>
+        counts: star counts placeholder
+      </td>
+    </tr>
+  </tbody>
 );
 
 IndividualStarBar.propTypes = {

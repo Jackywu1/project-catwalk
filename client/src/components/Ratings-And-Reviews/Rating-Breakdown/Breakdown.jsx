@@ -15,10 +15,9 @@ class Breakdown extends React.Component {
     const { starBars } = this.state;
 
     return (
-      <div>
-        2. test rendering breakdown
+      <table>
         {starBars.map((star) => <IndividualStarBar star={star} />)}
-      </div>
+      </table>
     );
   }
 }
